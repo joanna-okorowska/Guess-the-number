@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  .number {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  section {
+    display: flex;
+    justify-content: space-around;
+  }
+
+ footer {
+    text-align: center;
+    margin-top: 20px;
+ }
