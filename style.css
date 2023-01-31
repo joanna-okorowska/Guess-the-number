@@ -21,12 +21,14 @@
     font-size: 40px;
     text-align: center;
     margin: 50px auto;
+    /* background-color: rgb(46, 147, 46); */
+    /* background-color: rgb(200, 31, 31); */
   }
 
   section {
     display: flex;
     justify-content: space-around;
-    width: 500px;
+    width: 390px;
   }
 
   .center {
@@ -56,5 +58,6 @@
     color: rgb(0, 0, 0);
     height: 30px;
     width: 100px;
+    text-align: center;
  }
 
