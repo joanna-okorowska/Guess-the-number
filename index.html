@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
     <title>Guess the number</title>
   </head>
   <body>
@@ -14,14 +20,16 @@
     </header>
     <main>
       <div class="number">?</div>
+      <div class="center">
       <section>
-        <button class="again btn">Again</button>
+        <button class="again btn">AGAIN</button>
         <div>
           <input type="number" class="guessInput" />
           <p class="message">Your guess</p>
         </div>
-        <button class="check">Check</button>
+        <button class="check btn">CHECK</button>
       </section>
+    </div>
     </main>
     <footer>
       <p class="score">Score: <span class="scoreNumber">30</span></p>

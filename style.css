@@ -4,6 +4,11 @@
     box-sizing: border-box;
   }
 
+  body {
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
   header {
     text-align: center;
   }
@@ -15,15 +20,41 @@
     color: white;
     font-size: 40px;
     text-align: center;
-    margin: 20px auto;
+    margin: 50px auto;
   }
 
   section {
     display: flex;
     justify-content: space-around;
+    width: 500px;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
   }
 
  footer {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
  }
+
+ .message {
+    text-align: center;
+    margin-top: 10px;
+ }
+
+ .btn {
+    height: 30px;
+    width: 60px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+ }
+
+ .guessInput{
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 30px;
+    width: 100px;
+ }
+
