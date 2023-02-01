@@ -31,6 +31,11 @@
     width: 390px;
   }
 
+  .subheader {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
   .center {
     display: flex;
     justify-content: center;
@@ -51,7 +56,13 @@
     width: 60px;
     background-color:rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    
  }
+
+ .btn:hover {
+    background-color: rgb(222, 222, 222);
+    cursor: pointer;
+  }
 
  .guessInput{
     background-color:rgb(255, 255, 255);
