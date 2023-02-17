@@ -15,21 +15,12 @@ document.querySelector(".check").addEventListener("click", () => {
       highscore = score;
       document.querySelector(".highscoreNumber").textContent = highscore;
     }
-  } else if (guess > secretNumber) {
+  } else if (guess !== secretNumber) {
     if (score > 1) {
-      document.querySelector(".message").textContent = "The number is too high";
-      score--;
-      document.querySelector(".scoreNumber").textContent = score;
-    } else {
-      document.querySelector(".message").textContent = "You lost!";
-      document.querySelector(".number").style.backgroundColor =
-        "rgb(200, 31, 31)";
-      document.querySelector(".number").textContent = secretNumber;
-      document.querySelector(".scoreNumber").textContent = 0;
-    }
-  } else if (guess < secretNumber) {
-    if (score > 1) {
-      document.querySelector(".message").textContent = "The number is too low";
+      document.querySelector(".message").textContent =
+        guess > secretNumber
+          ? "The number is too high"
+          : "The number is too low";
       score--;
       document.querySelector(".scoreNumber").textContent = score;
     } else {
